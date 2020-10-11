@@ -1,0 +1,271 @@
+/* ====================== */
+/*          global        */
+/* ====================== */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.3em;
+}
+p {
+    line-height: 1.8em;
+}
+.ul-style-none {
+    list-style: none;
+}
+.flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-colomn {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: right;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.margin-top-regular {
+    margin-top: 140px;
+}
+.margin-top-small {
+    margin-top: 50px;
+}
+.padding-top-regular {
+    padding-top: 140px;
+}
+.padding-bottom-regular {
+    padding-bottom: 140px;
+}
+.padding-top-small {
+    padding-top: 50px;
+}
+.blue {
+    background-color: #3185fc;
+}
+.green {
+    background-color: #34e5ff;
+}
+.font-black {
+    color: black;
+}
+.font-white {
+    color: white;
+}
+.fit-within-width {
+    width: 100vw;
+    /* margin-left: -5.6%; */
+}
+
+.fit-within-90 {
+    width: 90%;
+    margin-left: 5%;
+}
+.fit-within-container {
+    width: 100%;
+}
+.button {
+    width: 6.9em;
+    height: 2.3em;
+    font-size: 1.5rem;
+    border-radius: 1000px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover,
+a:focus {
+    color: aqua;
+}
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fit-width {
+    width: 90vw;
+}
+.margin-left-mobile {
+    margin-left: -15vw;
+}
+/* ====================== */
+/*          global        */
+/* ====================== */
+
+/* ====================== */
+/*          nav           */
+/* ====================== */
+.menu-container {
+    width: 50px;
+    height: 50px;
+    /* margin-right: -40%; */
+}
+#menu {
+    margin-top: -50%;
+    width: 60px;
+}
+/* #nav-container {
+    margin-right: 10%;
+} */
+
+#logo-menu-container {
+    height: 45px;
+}
+nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ececec;
+}
+nav div div:last-child {
+    margin-top: 5px;
+}
+#ul-logo {
+    margin-left: 8%;
+    margin-top: -5.5%;
+}
+.logo {
+    width: 1.3em;
+    /* margin-top: -0.5em; */
+    margin-left: 4px;
+    margin-bottom: -30px;
+}
+
+nav div div:last-child a {
+    padding: 10px;
+}
+nav div .nav-div-last li {
+    margin: 15px;
+}
+nav {
+    width: 100vw;
+}
+.current {
+    color: #3185fc;
+}
+.current:hover,
+.current:focus {
+    color: #3185fc;
+    cursor: inherit;
+}
+/* ====================== */
+/*          nav           */
+/* ====================== */
+
+/* ====================== */
+/*          Footer        */
+/* ====================== */
+footer {
+    background-color: rgb(40, 40, 40);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+footer h3 {
+    color: white;
+    font-size: 1.5rem;
+}
+#logo-footer {
+    margin-left: 3px;
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+/* ====================== */
+/*          Footer        */
+/* ====================== */
+
+/* ====================== */
+/* responsive-web-design  */
+/* ====================== */
+
+@media screen and (orientation: landscape) {
+    .media-flex-row {
+        flex-direction: row;
+    }
+    .media-fit-content {
+        width: fit-content;
+    }
+    .media-justify-between {
+        justify-content: space-between;
+    }
+
+    .margin-top-regular {
+        margin-top: 100px;
+    }
+    .margin-top-small {
+        margin-top: 50px;
+    }
+    .margin-left-5 {
+        margin-left: 10%;
+    }
+    .padding-top-regular {
+        padding-top: 100px;
+    }
+    .padding-bottom-regular {
+        padding-bottom: 100px;
+    }
+    .padding-top-small {
+        padding-top: 50px;
+    }
+    .button {
+        width: 6.9em;
+        height: 1.9em;
+        font-size: 1.2rem;
+    }
+    .fit-within-90 {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .fit-within-width {
+        width: 98.8vw;
+    }
+    .fit-90 {
+        width: 80vw;
+    }
+    .margin-left-8 {
+        margin-left: 9%;
+    }
+    /* ====== nav ====== */
+    nav {
+        padding: 0;
+        background-color: white;
+        width: 95.8vw;
+    }
+    .margin-left-mobile {
+        margin-left: -2vw;
+    }
+    nav div .nav-div-last li {
+        padding: 0;
+
+        margin-top: 5px;
+        font-size: 1rem;
+        margin-left: 40px;
+    }
+    p {
+        font-size: 1rem;
+    }
+    #ul-logo {
+        font-size: 1rem;
+        margin-left: 35%;
+    }
+    #nav-container {
+        width: 85%;
+    }
+    #nav-header {
+        height: 2rem;
+    }
+    /*====== nav ======= */
+}
+/* ====================== */
+/* responsive-web-design  */
+/* ====================== */
