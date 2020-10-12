@@ -14,14 +14,21 @@ if ($(window).height() < $(window).width()) {
     }
 }
 if ($(window).height() >= $(window).width()) {
-    plan_main_container.append(plan);
+    try{
+
+        plan_main_container.append(plan);
+    }catch(e){
+        console.log('e', e)
+    }
     let price_span = $("#price-mobile");
     let save_year = $("#save-year-mobile");
     let price_year = $("#price-year-mobile");
     let plan_spans = $("#plan-mobile span");
-    plan_buttons.on("click", function (e) {
-        if (e.target.className === "free") {
-            $("main button#current")[0].id = "";
+    try{
+
+        plan_buttons.on("click", function (e) {
+            if (e.target.className === "free") {
+                $("main button#current")[0].id = "";
             price_span.text("0");
             price_year.text("0");
             save_year.text("0");
@@ -69,6 +76,9 @@ if ($(window).height() >= $(window).width()) {
             e.target.id = "current";
         }
     });
+}catch(e){
+    console.log('e', e)
+}
     console.log("price span", price_span);
 }
 $(window).resize(function () {

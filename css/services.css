@@ -1,6 +1,11 @@
 /* ====================== */
 /*          global        */
 /* ====================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+    font-family: "Montserrat", sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -113,6 +118,12 @@ a:focus {
 .margin-top-15 {
     margin-top: 15px;
 }
+.font-size-0-8 p {
+    font-size: 0.85rem;
+}
+.font-size-0-8 {
+    padding-bottom: 8px;
+}
 /* ====================== */
 /*          global        */
 /* ====================== */
@@ -134,7 +145,7 @@ a:focus {
 } */
 #ul-logo {
     margin-left: 8%;
-    margin-top: -10.5%;
+    margin-top: -18.5px;
 }
 #logo-menu-container {
     height: 45px;
@@ -319,7 +330,7 @@ footer h3 {
     }
     #ul-logo {
         font-size: 1rem;
-        margin-left: 15%;
+        margin-left: 5vw;
     }
     #nav-container {
         width: 85%;

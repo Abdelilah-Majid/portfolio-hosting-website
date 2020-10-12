@@ -1,6 +1,10 @@
 /* ====================== */
 /*          global        */
 /* ====================== */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+    font-family: "Montserrat", sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -132,7 +136,7 @@ nav div div:last-child {
 }
 #ul-logo {
     margin-left: 8%;
-    margin-top: -5.5%;
+    margin-top: -15.5px;
 }
 .logo {
     width: 1.3em;
@@ -256,7 +260,7 @@ footer h3 {
     }
     #ul-logo {
         font-size: 1rem;
-        margin-left: 35%;
+        margin-left: 5vw;
     }
     #nav-container {
         width: 85%;

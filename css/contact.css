@@ -1,6 +1,10 @@
 /* ====================== */
 /*          global        */
 /* ====================== */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+    font-family: "Montserrat", sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -132,8 +136,8 @@ nav div div:last-child {
     margin-top: 5px;
 }
 #ul-logo {
-    margin-left: 15%;
-    margin-top: -5.5%;
+    margin-left: 8%;
+    margin-top: -15.5px;
 }
 .logo {
     width: 1.3em;
@@ -273,7 +277,7 @@ footer h3 {
     }
     #ul-logo {
         font-size: 1rem;
-        margin-left: 35%;
+        margin-left: 5vw;
     }
     #nav-container {
         width: 85%;
@@ -281,26 +285,26 @@ footer h3 {
     #nav-header {
         height: 2rem;
     }
+    /*====== nav ======= */
+    /*====== main ======= */
+    main img {
+        width: 95%;
+    }
+    main div.media-flex-row div {
+        width: 75%;
+    }
+    .main-img-magin-left {
+        margin-left: 60px;
+        margin-right: 16px;
+    }
+    .main-img-magin-right {
+        margin-left: -10px;
+    }
+    #phone {
+        width: 67%;
+    }
+    /*====== main ======= */
 }
-/*====== nav ======= */
-/*====== main ======= */
-main img {
-    width: 95%;
-}
-main div.media-flex-row div {
-    width: 75%;
-}
-.main-img-magin-left {
-    margin-left: 60px;
-    margin-right: 16px;
-}
-.main-img-magin-right {
-    margin-left: -10px;
-}
-#phone {
-    width: 67%;
-}
-/*====== main ======= */
 
 /* ====================== */
 /* responsive-web-design  */
