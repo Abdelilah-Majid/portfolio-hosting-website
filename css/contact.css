@@ -305,7 +305,12 @@ footer h3 {
     }
     /*====== main ======= */
 }
-
+@media screen and (orientation: portrait) {
+    #nav-header {
+        position: fixed;
+        top: -0vh;
+    }
+}
 /* ====================== */
 /* responsive-web-design  */
 /* ====================== */
