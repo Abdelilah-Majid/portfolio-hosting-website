@@ -303,6 +303,9 @@ footer h3 {
     .margin-left-8 {
         margin-left: 10%;
     }
+    .font-size-2 {
+        font-size: 1.5rem;
+    }
     /* ====== nav ====== */
     nav {
         padding: 0;
@@ -344,7 +347,7 @@ footer h3 {
     }
     main header {
         margin-left: -1vw;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     /*====== header ======= */
