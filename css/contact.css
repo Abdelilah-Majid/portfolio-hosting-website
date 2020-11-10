@@ -4,14 +4,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
+  
 }
 * {
   margin: 0;
   padding: 0;
-  border: 0;
   box-sizing: border-box;
   text-align: center;
   line-height: 1.3em;
+}
+body{
+width: 100vw
 }
 .background-litle-dark {
   background-color: rgba(0, 0, 0, 0.4);
@@ -336,7 +339,20 @@ footer h3 {
   main.margin-top-regular {
     margin-top: 80px;
   }
+  #main-main-header{
+  	margin-left: 0;
+  }
 }
+
+
+@media screen and (orientation: landscape) and (max-width: 811px) {
+
+	  body nav div .nav-div-last li {
+	  	 margin-left: 10px;
+	  }
+
+}
+
 /* ====================== */
 /* responsive-web-design  */
 /* ====================== */
