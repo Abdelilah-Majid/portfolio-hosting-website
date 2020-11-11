@@ -301,6 +301,15 @@ footer h3 {
     margin-top: 80px;
   }
 }
+
+@media screen and (orientation: landscape) and (max-width: 811px) {
+  body nav div .nav-div-last li {
+    margin-left: 10px;
+  }
+  #ul-logo {
+    margin-left: 5%;
+  }
+}
 /* ====================== */
 /* responsive-web-design  */
 /* ====================== */
